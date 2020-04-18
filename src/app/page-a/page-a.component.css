@@ -1,0 +1,13 @@
+.section-block{
+    height: 500px;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.bi-bell-c{
+    color: #DBDBDA;
+}
+
+.bi-bell-c:hover {
+    fill: #F27F6D;
+  }

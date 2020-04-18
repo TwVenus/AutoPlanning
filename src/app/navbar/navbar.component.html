@@ -1,0 +1,18 @@
+<!-- Toolbar -->
+<div [ngClass]="(scroll > 10)? 'sticky':''" class="" id="globalHeader">
+    <div class="logo sized dsk"><a href="*"><img src="assets/img/logo@2x.png" alt="Autoplanning"></a></div>
+    <div class="sticky-bar"></div>
+    <div class="logo sized stk">
+        <a href="*">
+            <div class="logo-dot part" style="opacity: 1; transform: translate(0px, 0px);"><img src="assets/img/logo@x1.svg"></div>
+        </a>
+    </div>
+    <div class="toplinks">
+        <ul class="top">
+        <li (click)="moveToBlock('page_a_block')">Page A</li>
+        <li (click)="moveToBlock('page_b_block')">Page B</li>
+        <li (click)="moveToBlock('page_c_block')">Page C</li>
+        </ul>
+    </div>
+    <div class="cta-items"> <ul> <li class="cta"><a href="https://app.handwrytten.com/cards?login=true" target="_blank" class="cta-btn orange sm">Sign Up</a></li> </ul></div>
+</div>
